@@ -1,9 +1,9 @@
 name: Hello World
-
 on: push
-job:
+
+jobs:
     hello-job:
-        run-on: ubuntu-latest
+        runs-on: ubuntu-latest
         steps:
 
             - name: Echo text
